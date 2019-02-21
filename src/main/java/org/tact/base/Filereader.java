@@ -37,10 +37,8 @@ public class Filereader  {
 		try(BufferedReader br  = new BufferedReader(new FileReader(file2))){
             String strLine;
             while((strLine = br.readLine()) != null){
-             System.out.println("Line is - " + strLine);
+             System.out.println("File content  is - " + strLine);
             }
 		}
-	}
-	
-	
+	}	
 }
