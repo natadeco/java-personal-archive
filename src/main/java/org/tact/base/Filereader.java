@@ -36,7 +36,7 @@ public class Filereader  {
 		// TODO Auto-generated method stub
 		try(BufferedReader br  = new BufferedReader(new FileReader(file2))){
             String strLine;
-            while((strLine = br.readLine()) != null){
+            while((strLine = br.readLine()) != null) {
              System.out.println("File content  is - " + strLine);
             }
 		}
