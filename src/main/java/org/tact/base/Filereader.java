@@ -17,7 +17,7 @@ public class Filereader  {
 	private void listFiles(File file) {
 		// TODO Auto-generated method stub
 		System.out.println("Reading the files from the folder");
-		File[] fileNames = file.listFiles();
+		File[] fileNames = file.listFiles(); 
 		for(File file2 : fileNames) {
 			if(file2.isDirectory()) {
 			  listFiles(file2);
